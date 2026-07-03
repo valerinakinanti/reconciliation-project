@@ -1,0 +1,423 @@
+{
+  "as_of_date": "2025-01-15",
+  "current_cycle": "Dec 2024 reconciliation (open items as of 15 Jan 2025)",
+  "total_trades": 6000,
+  "matched_trades": 5460,
+  "total_breaks": 540,
+  "match_rate_pct": 91.0,
+  "total_exposure_usd": 589947567.32,
+  "current_cycle_open_breaks": 49,
+  "current_cycle_exposure_usd": 60130692.71,
+  "by_break_type": [
+    {
+      "break_type": "FEE_MISSING",
+      "count": 108,
+      "exposure_usd": 700296.51
+    },
+    {
+      "break_type": "FX_RATE",
+      "count": 108,
+      "exposure_usd": 13606531.82
+    },
+    {
+      "break_type": "MISSING_IN_SAP",
+      "count": 108,
+      "exposure_usd": 568504314.36
+    },
+    {
+      "break_type": "PRICE_MISMATCH",
+      "count": 108,
+      "exposure_usd": 7136424.63
+    },
+    {
+      "break_type": "TIMING",
+      "count": 108,
+      "exposure_usd": 0.0
+    }
+  ],
+  "by_desk": [
+    {
+      "desk": "Crude Oil",
+      "count": 216,
+      "exposure_usd": 220626872.95
+    },
+    {
+      "desk": "Freight",
+      "count": 53,
+      "exposure_usd": 43154808.39
+    },
+    {
+      "desk": "Fuel Oil",
+      "count": 65,
+      "exposure_usd": 79510108.54
+    },
+    {
+      "desk": "Middle Distillates",
+      "count": 108,
+      "exposure_usd": 116351585.55
+    },
+    {
+      "desk": "Naphtha & Gasoline",
+      "count": 98,
+      "exposure_usd": 130304191.89
+    }
+  ],
+  "by_counterparty_top10": [
+    {
+      "counterparty": "Mercuria Energy",
+      "count": 47,
+      "exposure_usd": 86587496.21
+    },
+    {
+      "counterparty": "PetroChina Intl",
+      "count": 52,
+      "exposure_usd": 83368439.9
+    },
+    {
+      "counterparty": "TotalEnergies Trading",
+      "count": 49,
+      "exposure_usd": 52862839.71
+    },
+    {
+      "counterparty": "Unipec Asia",
+      "count": 38,
+      "exposure_usd": 51403992.21
+    },
+    {
+      "counterparty": "Reliance Industries",
+      "count": 40,
+      "exposure_usd": 49479411.3
+    },
+    {
+      "counterparty": "Chevron Products",
+      "count": 42,
+      "exposure_usd": 48484043.38
+    },
+    {
+      "counterparty": "BP Oil International",
+      "count": 55,
+      "exposure_usd": 44231818.39
+    },
+    {
+      "counterparty": "ExxonMobil Sales & Supply",
+      "count": 55,
+      "exposure_usd": 43654124.64
+    },
+    {
+      "counterparty": "Shell Trading",
+      "count": 50,
+      "exposure_usd": 37265321.55
+    },
+    {
+      "counterparty": "Vitol SA",
+      "count": 38,
+      "exposure_usd": 33435042.86
+    }
+  ],
+  "by_age_bucket": [
+    {
+      "age_bucket": "11-20 days (Aging)",
+      "count": 5,
+      "exposure_usd": 29150271.77
+    },
+    {
+      "age_bucket": "21-30 days (Overdue)",
+      "count": 20,
+      "exposure_usd": 7703910.07
+    },
+    {
+      "age_bucket": "31+ days (Critical)",
+      "count": 24,
+      "exposure_usd": 23276510.87
+    }
+  ],
+  "heatmap_desk_age": [
+    {
+      "desk": "Crude Oil",
+      "age_bucket": "11-20 days (Aging)",
+      "count": 3
+    },
+    {
+      "desk": "Crude Oil",
+      "age_bucket": "21-30 days (Overdue)",
+      "count": 6
+    },
+    {
+      "desk": "Crude Oil",
+      "age_bucket": "31+ days (Critical)",
+      "count": 6
+    },
+    {
+      "desk": "Freight",
+      "age_bucket": "11-20 days (Aging)",
+      "count": 1
+    },
+    {
+      "desk": "Freight",
+      "age_bucket": "31+ days (Critical)",
+      "count": 4
+    },
+    {
+      "desk": "Fuel Oil",
+      "age_bucket": "21-30 days (Overdue)",
+      "count": 5
+    },
+    {
+      "desk": "Fuel Oil",
+      "age_bucket": "31+ days (Critical)",
+      "count": 3
+    },
+    {
+      "desk": "Middle Distillates",
+      "age_bucket": "11-20 days (Aging)",
+      "count": 1
+    },
+    {
+      "desk": "Middle Distillates",
+      "age_bucket": "21-30 days (Overdue)",
+      "count": 6
+    },
+    {
+      "desk": "Middle Distillates",
+      "age_bucket": "31+ days (Critical)",
+      "count": 7
+    },
+    {
+      "desk": "Naphtha & Gasoline",
+      "age_bucket": "21-30 days (Overdue)",
+      "count": 3
+    },
+    {
+      "desk": "Naphtha & Gasoline",
+      "age_bucket": "31+ days (Critical)",
+      "count": 4
+    }
+  ],
+  "sample_breaks": [
+    {
+      "trade_id": "TRD-2024-103287",
+      "desk": "Middle Distillates",
+      "counterparty": "Shell Trading",
+      "break_type": "MISSING_IN_SAP",
+      "age_bucket": "11-20 days (Aging)",
+      "exposure_usd": 14330085.02,
+      "trade_date": "2024-12-27"
+    },
+    {
+      "trade_id": "TRD-2024-102674",
+      "desk": "Crude Oil",
+      "counterparty": "Unipec Asia",
+      "break_type": "MISSING_IN_SAP",
+      "age_bucket": "11-20 days (Aging)",
+      "exposure_usd": 14207949.52,
+      "trade_date": "2024-12-28"
+    },
+    {
+      "trade_id": "TRD-2024-104381",
+      "desk": "Crude Oil",
+      "counterparty": "PetroChina Intl",
+      "break_type": "MISSING_IN_SAP",
+      "age_bucket": "31+ days (Critical)",
+      "exposure_usd": 6994752.2,
+      "trade_date": "2024-12-08"
+    },
+    {
+      "trade_id": "TRD-2024-102870",
+      "desk": "Crude Oil",
+      "counterparty": "BP Oil International",
+      "break_type": "MISSING_IN_SAP",
+      "age_bucket": "31+ days (Critical)",
+      "exposure_usd": 6932344.5,
+      "trade_date": "2024-12-02"
+    },
+    {
+      "trade_id": "TRD-2024-105292",
+      "desk": "Fuel Oil",
+      "counterparty": "BP Oil International",
+      "break_type": "MISSING_IN_SAP",
+      "age_bucket": "31+ days (Critical)",
+      "exposure_usd": 3545834.34,
+      "trade_date": "2024-12-08"
+    },
+    {
+      "trade_id": "TRD-2024-101838",
+      "desk": "Crude Oil",
+      "counterparty": "Vitol SA",
+      "break_type": "MISSING_IN_SAP",
+      "age_bucket": "21-30 days (Overdue)",
+      "exposure_usd": 3427105.84,
+      "trade_date": "2024-12-25"
+    },
+    {
+      "trade_id": "TRD-2024-102316",
+      "desk": "Freight",
+      "counterparty": "TotalEnergies Trading",
+      "break_type": "MISSING_IN_SAP",
+      "age_bucket": "31+ days (Critical)",
+      "exposure_usd": 3410643.8,
+      "trade_date": "2024-12-05"
+    },
+    {
+      "trade_id": "TRD-2024-102518",
+      "desk": "Crude Oil",
+      "counterparty": "ExxonMobil Sales & Supply",
+      "break_type": "MISSING_IN_SAP",
+      "age_bucket": "21-30 days (Overdue)",
+      "exposure_usd": 3387571.7,
+      "trade_date": "2024-12-19"
+    },
+    {
+      "trade_id": "TRD-2024-101491",
+      "desk": "Middle Distillates",
+      "counterparty": "Chevron Products",
+      "break_type": "MISSING_IN_SAP",
+      "age_bucket": "31+ days (Critical)",
+      "exposure_usd": 1749294.56,
+      "trade_date": "2024-12-06"
+    },
+    {
+      "trade_id": "TRD-2024-101376",
+      "desk": "Crude Oil",
+      "counterparty": "ExxonMobil Sales & Supply",
+      "break_type": "PRICE_MISMATCH",
+      "age_bucket": "11-20 days (Aging)",
+      "exposure_usd": 322964.07,
+      "trade_date": "2024-12-29"
+    },
+    {
+      "trade_id": "TRD-2024-103342",
+      "desk": "Crude Oil",
+      "counterparty": "BP Oil International",
+      "break_type": "FX_RATE",
+      "age_bucket": "11-20 days (Aging)",
+      "exposure_usd": 289273.16,
+      "trade_date": "2024-12-26"
+    },
+    {
+      "trade_id": "TRD-2024-104053",
+      "desk": "Naphtha & Gasoline",
+      "counterparty": "Trafigura Group",
+      "break_type": "FX_RATE",
+      "age_bucket": "21-30 days (Overdue)",
+      "exposure_usd": 210151.88,
+      "trade_date": "2024-12-16"
+    },
+    {
+      "trade_id": "TRD-2024-105652",
+      "desk": "Naphtha & Gasoline",
+      "counterparty": "Mercuria Energy",
+      "break_type": "FX_RATE",
+      "age_bucket": "31+ days (Critical)",
+      "exposure_usd": 184087.94,
+      "trade_date": "2024-12-03"
+    },
+    {
+      "trade_id": "TRD-2024-104063",
+      "desk": "Middle Distillates",
+      "counterparty": "Vitol SA",
+      "break_type": "PRICE_MISMATCH",
+      "age_bucket": "31+ days (Critical)",
+      "exposure_usd": 170357.86,
+      "trade_date": "2024-12-05"
+    },
+    {
+      "trade_id": "TRD-2024-102108",
+      "desk": "Middle Distillates",
+      "counterparty": "ExxonMobil Sales & Supply",
+      "break_type": "PRICE_MISMATCH",
+      "age_bucket": "21-30 days (Overdue)",
+      "exposure_usd": 145313.0,
+      "trade_date": "2024-12-17"
+    },
+    {
+      "trade_id": "TRD-2024-104869",
+      "desk": "Middle Distillates",
+      "counterparty": "Mercuria Energy",
+      "break_type": "FX_RATE",
+      "age_bucket": "21-30 days (Overdue)",
+      "exposure_usd": 107391.79,
+      "trade_date": "2024-12-25"
+    },
+    {
+      "trade_id": "TRD-2024-103867",
+      "desk": "Middle Distillates",
+      "counterparty": "Reliance Industries",
+      "break_type": "PRICE_MISMATCH",
+      "age_bucket": "21-30 days (Overdue)",
+      "exposure_usd": 105953.05,
+      "trade_date": "2024-12-24"
+    },
+    {
+      "trade_id": "TRD-2024-102850",
+      "desk": "Middle Distillates",
+      "counterparty": "Reliance Industries",
+      "break_type": "FX_RATE",
+      "age_bucket": "31+ days (Critical)",
+      "exposure_usd": 99397.6,
+      "trade_date": "2024-12-10"
+    },
+    {
+      "trade_id": "TRD-2024-101408",
+      "desk": "Crude Oil",
+      "counterparty": "Unipec Asia",
+      "break_type": "FX_RATE",
+      "age_bucket": "31+ days (Critical)",
+      "exposure_usd": 80054.72,
+      "trade_date": "2024-12-01"
+    },
+    {
+      "trade_id": "TRD-2024-102820",
+      "desk": "Fuel Oil",
+      "counterparty": "BP Oil International",
+      "break_type": "FX_RATE",
+      "age_bucket": "21-30 days (Overdue)",
+      "exposure_usd": 63800.11,
+      "trade_date": "2024-12-24"
+    },
+    {
+      "trade_id": "TRD-2024-103283",
+      "desk": "Fuel Oil",
+      "counterparty": "Vitol SA",
+      "break_type": "PRICE_MISMATCH",
+      "age_bucket": "21-30 days (Overdue)",
+      "exposure_usd": 58878.88,
+      "trade_date": "2024-12-18"
+    },
+    {
+      "trade_id": "TRD-2024-104965",
+      "desk": "Fuel Oil",
+      "counterparty": "BP Oil International",
+      "break_type": "PRICE_MISMATCH",
+      "age_bucket": "21-30 days (Overdue)",
+      "exposure_usd": 58267.8,
+      "trade_date": "2024-12-25"
+    },
+    {
+      "trade_id": "TRD-2024-100323",
+      "desk": "Crude Oil",
+      "counterparty": "ExxonMobil Sales & Supply",
+      "break_type": "FX_RATE",
+      "age_bucket": "21-30 days (Overdue)",
+      "exposure_usd": 50362.6,
+      "trade_date": "2024-12-24"
+    },
+    {
+      "trade_id": "TRD-2024-101318",
+      "desk": "Naphtha & Gasoline",
+      "counterparty": "Vitol SA",
+      "break_type": "PRICE_MISMATCH",
+      "age_bucket": "31+ days (Critical)",
+      "exposure_usd": 42417.5,
+      "trade_date": "2024-12-14"
+    },
+    {
+      "trade_id": "TRD-2024-101832",
+      "desk": "Crude Oil",
+      "counterparty": "TotalEnergies Trading",
+      "break_type": "PRICE_MISMATCH",
+      "age_bucket": "21-30 days (Overdue)",
+      "exposure_usd": 36237.53,
+      "trade_date": "2024-12-20"
+    }
+  ]
+}
